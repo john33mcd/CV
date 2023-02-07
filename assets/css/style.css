@@ -3,6 +3,9 @@ font-family: 'Oleo Script', cursive;
 font-family: 'Roboto', sans-serif;
 **/
 
+
+
+
 /* -------------------------------------- Colours */
 
 .bg-color-name-title {
@@ -84,11 +87,7 @@ header {
 .menuitem {
     height: 120px;
     text-align: center;
-    padding: 0;   
-}
-
-.menuitem :hover{
-    background-color: red;
+    padding: 0;
 }
 
 .menuitem a {
@@ -114,4 +113,10 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/* -------------------------------------- Hover.css */
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2) !important;
+    height: 120px;
 }
