@@ -10,18 +10,131 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
     <script src="https://kit.fontawesome.com/0fd922b445.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo:ital@0;1&family=Oleo+Script&family=Roboto:ital@0;1&display=swap');
+    </style>
     <title>John Mc Dermott CV</title>
 </head>
 
 <body>
     <header>
+        <div class="row g-0">
+            <a href="index.html" class="col-md-4 logo">
+            </a>
+            <div class="col-md-8">
+                <div class="row g-0 bg-color-name-title">
+                    <div class="col heading">
+                        <h1 class="name"> John Mc Dermott</h1>
+                        <h2 class="title"> Full Stack Development student</h2>
+
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
+                                <a href="#" id="firstButton" class="hvr-sweep-to-bottom"><i class="fa fa-home"
+                                        aria-hidden="true"></i><span>Home</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-cv list-inline-item menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
+                                        aria-hidden="true"></i><span>CV</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o"
+                                        aria-hidden="true"></i><span>Contact</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
+                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download"
+                                        aria-hidden="true"></i><span>Download</span></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center"> Do you have a project idea in mind ?</h3>
+                <h5 class="uppercase text-center"> If so, let's work together !</h5>
+
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            required />
+                        <textarea name="projectsummary" id="projectsummary" rows="5" class="form-control"
+                            placeholder="project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary"> Send Project Idea</button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
     </section>
     <footer>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">About</h5>
+                    <p class="inline-block">
+                        Full stack web development student, participating in Code Institutes Full Stack Web Development
+                        program.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Download</h5>
+                    <p class="inline-block"> Need a printable version of my CV? Use the attached link.</p>
+                    <a href="#" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only"> Download Link</span>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Social</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-    </footer>
+            </div>
+
+
+        </footer>
 
 
 </body>
