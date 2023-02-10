@@ -17,9 +17,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .bg-color-personal-info {
-    background-color: #e67;
+    background-color: rgba(97, 97, 97, 0.2);
     border-radius: 2%;
-    color: #fafafa;
 }
 
 .bg-color-contact {
