@@ -46,6 +46,10 @@ font-family: 'Roboto', sans-serif;
     background-color: #1777;
 }
 
+.ui-menu-color-github {
+    background-color: rgba(185, 29, 115, 0.467);
+}
+
 
 /* -------------------------------------- Special paddings/margins/text */
 
